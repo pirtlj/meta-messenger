@@ -1,0 +1,8 @@
+>> Writing PID to tmp/pids/thin.pid
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:9292, CTRL+C to stop
+2013-03-22 20:09:10 [ERROR] [Faye::RackAdapter] Received request with no message: "curl -X GET 'http://localhost:9292/faye'"
+2013-03-22 20:09:18 [ERROR] [Faye::RackAdapter] Received request with no message: "curl -X POST 'http://localhost:9292/faye' -H 'Content-Type: application/x-www-form-urlencoded' -d 'TEST'"
+2013-03-22 20:12:11 [ERROR] [Faye::RackAdapter] Received request with no message: "curl -X POST 'http://localhost:9292/faye' -H 'Content-Type: application/x-www-form-urlencoded' -d '{message: 'test'}'"
+>> Exiting!
